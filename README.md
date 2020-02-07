@@ -1,20 +1,19 @@
-# BxJS Weekly news podcast
+# Podcast de noticias de JavaScript
 
-This repository contains links collection for weekly javascript news podcast - **BxJS Weekly**.
+Este repositorio contiene los links que se presentan en el podcast semanal de noticias de JavaScript (_nombre por definir_).
 
 ## Links
 
-You can find all the collections in [links](./links) folder.  
-Episodes are named according to `YY-WW-Episode-N` [pattern](https://github.com/BuildingXwithJS/bxjs-weekly/issues/2#issuecomment-413105383).
+Puedes encontrar todos los links en la carpeta [episodios](./episodios).
+Los episodios son nombrados de acuerdo al patrón `AAAA-SS-Episodio-N`.
 
-## Media
+Debido a que la primera emisión se hará en la segunda semana de Febrero (semana
+6 del 2020) el primer episodio queda siguiendo el patrón: `2020-06-Episodio-1`.
 
-The podcast happens live on [twitch](https://www.twitch.tv/yamalight) every weekend (typically on Saturdays, 20:00 Berlin time).
+## Inspiración
 
-You can find past episodes on:
-
-- [YouTube](https://www.youtube.com/playlist?list=PL_gX69xPLi-mqs5BJe-xPnOPT6K1Y5_ZQ)
-- [Dev.to](https://dev.to/yamalight/)
-- [Itunes](https://itunes.apple.com/de/podcast/bxjs-weekly/id1441956525)
-- [CastBox](https://castbox.fm/channel/BxJS-Weekly-id1378315)
-- [Player.fm](https://player.fm/series/bxjs-weekly)
+Este esfuerzo está inspirado en el gran trabajo realizado por [Tim Ermilov](https://github.com/yamalight)
+en su programa semanal llamado [BxJS Weekly](https://bxjs.dev), debido a esto,
+este repositorio es un fork directo al programa de Tim y los episodios anteriores
+al primero de este programa en español pueden ser encontrados en la carpeta
+[legacy](./legacy).
