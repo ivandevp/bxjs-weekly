@@ -3,6 +3,9 @@
 - [Functional Programming for JavaScript Developers](https://levelup.gitconnected.com/functional-programming-for-javascript-developers-669c3db705f0)
 - [Formatting dates in JavScript with Intl.DateTimeFormat](https://www.valentinog.com/blog/datetime/)
 - [Arrow Functions vs Functions](https://medium.com/javascript-in-plain-english/javascript-arrow-functions-vs-functions-3f6ce860f8b5)
+- [The CSS Cascade or, How browsers resolve competing CSS styles](https://wattenberger.com/blog/css-cascade)
+- [Why the TypeScript team is using Gatsby for its new website](https://www.gatsbyjs.org/blog/2020-01-23-why-typescript-chose-gatsby/)
+- [Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-ecmascript-part-1)
 
 ## Blogs
 
@@ -16,6 +19,9 @@
 - [Six Data Structures You Should Know In 2020](https://dev.to/ladybug/six-data-structures-you-should-know-in-2020-3h5a)
 - [The most surprising behavior of JavaScript regular expression you have ever seen](https://medium.com/javascript-in-plain-english/most-surprising-behavior-of-javascript-regular-expression-you-have-ever-seen-1ddb84539163)
 - [Improve Your Algorithms with this Simple Equation](https://dev.to/nielsenjared/improve-your-algorithms-with-this-simple-equation-3g1c)
+- [Old CSS, new CSS](https://eev.ee/blog/2020/02/01/old-css-new-css/)
+- [A new technique for making responsive, JavaScript-free charts](https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp)
+- [Report: What’s New in ECMAScript and JavaScript for 2020](https://thenewstack.io/report-whats-new-in-ecmascript-and-javascript-for-2020/)
 
 ## Tutoriales
 
@@ -26,9 +32,13 @@
 
 ## Releases
 
+- [Chrome 80](https://developers.google.com/web/updates/2020/02/nic80)
 - [Node.js 13.8.0](https://github.com/nodejs/node/releases/tag/v13.8.0)
-- [Angular 9](https://github.com/angular/angular/releases/tag/9.0.0)
+- [Angular 9](https://blog.angular.io/version-9-of-angular-now-available-project-ivy-has-arrived-23c97b63cfa3)
 - [Vue CLI 4.2.0](https://github.com/vuejs/vue-cli/releases/tag/v4.2.0)
+- [Electron 8.0.0](https://www.electronjs.org/blog/electron-8-0)
+- [React Navigation 5.0](https://reactnavigation.org/blog/2020/02/06/react-navigation-5.0.html)
+- [TypeScript 3.8 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-3-8-rc/)
 - [Cypress 4.0](https://github.com/cypress-io/cypress/releases/tag/v4.0.0)
 - [lazygit 0.14.2](https://github.com/jesseduffield/lazygit/releases/tag/v0.14.2)
 - [react-flame-graph 1.4.0](https://github.com/bvaughn/react-flame-graph/blob/master/CHANGELOG.md#140)
@@ -42,3 +52,7 @@
 - [Implement conic gradients from CSS Image Values Level 4](https://bugzilla.mozilla.org/show_bug.cgi?id=1175958)
 - [CSS backdrop-filters](https://twitter.com/addyosmani/status/1226090797784760320?s=20)
 - [CSS Scroll Snap](https://twitter.com/addyosmani/status/1225728408581099520?s=20)
+- [ECMAScript proposal: BigDecimal advances to Stage 1](https://twitter.com/robpalmer2/status/1224884177364901889?s=12)
+- [HTML’s <q> element](https://twitter.com/TejasKumar_/status/1223667631372361728)
+- [TIL about the CSS media query `prefers-reduced-data`](https://twitter.com/argyleink/status/1225240181822742529?s=12)
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
