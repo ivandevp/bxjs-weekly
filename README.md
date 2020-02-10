@@ -1,6 +1,6 @@
-# Podcast de noticias de JavaScript
+# Unexpected News Podcast
 
-Este repositorio contiene los links que se presentan en el podcast semanal de noticias de JavaScript (_nombre por definir_).
+Este repositorio contiene los links que se presentan en el podcast semanal de noticias de JavaScript.
 
 ## Links
 
@@ -15,5 +15,5 @@ Debido a que la primera emisión se hará en la segunda semana de Febrero (seman
 Este esfuerzo está inspirado en el gran trabajo realizado por [Tim Ermilov](https://github.com/yamalight)
 en su programa semanal llamado [BxJS Weekly](https://bxjs.dev), debido a esto,
 este repositorio es un fork directo al programa de Tim y los episodios anteriores
-al primero de este programa en español pueden ser encontrados en la carpeta
-[legacy](./legacy).
+al primero de este programa en español pueden ser encontrados en el repositorio 
+[orignal](https://github.com/BuildingXwithJS/bxjs-weekly).
