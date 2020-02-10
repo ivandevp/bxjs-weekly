@@ -32,14 +32,15 @@
 
 ## Releases
 
-- [Chrome 80](https://developers.google.com/web/updates/2020/02/nic80)
 - [Node.js 13.8.0](https://github.com/nodejs/node/releases/tag/v13.8.0)
 - [Angular 9](https://blog.angular.io/version-9-of-angular-now-available-project-ivy-has-arrived-23c97b63cfa3)
+- [Chrome 80](https://developers.google.com/web/updates/2020/02/nic80)
 - [Vue CLI 4.2.0](https://github.com/vuejs/vue-cli/releases/tag/v4.2.0)
 - [Electron 8.0.0](https://www.electronjs.org/blog/electron-8-0)
-- [React Navigation 5.0](https://reactnavigation.org/blog/2020/02/06/react-navigation-5.0.html)
 - [TypeScript 3.8 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-3-8-rc/)
 - [Cypress 4.0](https://github.com/cypress-io/cypress/releases/tag/v4.0.0)
+- [React Navigation 5.0](https://reactnavigation.org/blog/2020/02/06/react-navigation-5.0.html)
+- [Firebase JS SDK 7.8.1](https://firebase.google.com/support/release-notes/js#7.8.1)
 - [lazygit 0.14.2](https://github.com/jesseduffield/lazygit/releases/tag/v0.14.2)
 - [react-flame-graph 1.4.0](https://github.com/bvaughn/react-flame-graph/blob/master/CHANGELOG.md#140)
 
