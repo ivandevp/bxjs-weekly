@@ -1,32 +1,44 @@
 {
-  "name": "bxjs-weekly",
-  "version": "1.0.0",
-  "description": "This repository contains links collection for weekly javascript news podcast - **BxJS Weekly**.",
-  "main": "index.js",
+  "name": "unexpected-news-podcast",
+  "private": true,
+  "description": "Este repositorio contiene la colección de links para el podcast de noticias semanales - **Unexpected News**.",
+  "version": "0.1.0",
+  "author": "Ivan Medina <medinadiazivan@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.19.7",
+    "gatsby-image": "^2.2.39",
+    "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-offline": "^3.0.32",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-sharp": "^2.3.13",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
   "scripts": {
-    "test": "node tools/checkDups.js",
-    "generate": "npm run generatedata && npm run generatepdf",
-    "generatedata": "node tools/generateDataFile.js",
-    "generatepdf": "node tools/generatePDFFile.js"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BuildingXwithJS/bxjs-weekly.git"
+    "url": "https://github.com/ivandevp/unexpected-news"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BuildingXwithJS/bxjs-weekly/issues"
-  },
-  "homepage": "https://github.com/BuildingXwithJS/bxjs-weekly#readme",
-  "dependencies": {
-    "commonmark": "^0.28.1",
-    "elasticlunr": "^0.9.5",
-    "fast-levenshtein": "^2.0.6",
-    "highland": "^2.13.0",
-    "md-2-json": "^1.0.5",
-    "pdfkit": "^0.8.3",
-    "pdfkit-commonmark": "^0.2.0"
+    "url": "https://github.com/ivandevp/unexpected-news/issues"
   }
 }
