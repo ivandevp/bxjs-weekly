@@ -6,6 +6,8 @@
 - [The CSS Cascade or, How browsers resolve competing CSS styles](https://wattenberger.com/blog/css-cascade)
 - [Why the TypeScript team is using Gatsby for its new website](https://www.gatsbyjs.org/blog/2020-01-23-why-typescript-chose-gatsby/)
 - [Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-ecmascript-part-1)
+- [Six Data Structures You Should Know In 2020](https://dev.to/ladybug/six-data-structures-you-should-know-in-2020-3h5a)
+- [Improve Your Algorithms with this Simple Equation](https://dev.to/nielsenjared/improve-your-algorithms-with-this-simple-equation-3g1c)
 
 ## Blogs
 
@@ -16,9 +18,7 @@
 - [Why styled-components?](https://medium.com/styled-components/why-styled-components-2deeed757cfa)
 - [Animation Worklet: The 4 Missing Features](https://inventingwithmonster.io/20200203-animationworklet-the-missing-pieces/)
 - [Elm vs Svelte](https://dev.to/lucamug/elm-vs-svelte-7k4)
-- [Six Data Structures You Should Know In 2020](https://dev.to/ladybug/six-data-structures-you-should-know-in-2020-3h5a)
 - [The most surprising behavior of JavaScript regular expression you have ever seen](https://medium.com/javascript-in-plain-english/most-surprising-behavior-of-javascript-regular-expression-you-have-ever-seen-1ddb84539163)
-- [Improve Your Algorithms with this Simple Equation](https://dev.to/nielsenjared/improve-your-algorithms-with-this-simple-equation-3g1c)
 - [Old CSS, new CSS](https://eev.ee/blog/2020/02/01/old-css-new-css/)
 - [A new technique for making responsive, JavaScript-free charts](https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp)
 - [Report: What’s New in ECMAScript and JavaScript for 2020](https://thenewstack.io/report-whats-new-in-ecmascript-and-javascript-for-2020/)
