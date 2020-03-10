@@ -6,6 +6,7 @@
 - [Alternatives to enums in TypeScript](https://2ality.com/2020/02/enum-alternatives-typescript.html)
 - [Understanding Immutability in JavaScript](https://css-tricks.com/understanding-immutability-in-javascript/)
 - [What is a type in TypeScript? Two perspectives](https://2ality.com/2020/02/understanding-types-typescript.html)
+- [Functional Programming in JavaScript](https://dev.to/damxipo/functional-programming-in-javascript-442p)
 
 ## Artículos y noticias
 
@@ -17,14 +18,17 @@
 - [Rome](https://jasonformat.com/rome-javascript-toolchain/)
 - [Public static class fields are now supported in Firefox Nightly](https://twitter.com/SpiderMonkeyJS/status/1231843794523480064)
 - [Visual comparison of data structures for "collaborative text editing" algorithms.](https://twitter.com/jaredforsyth/status/1232532781936173056)
-
-## Tutoriales
+- [7 Types of Native Errors in JavaScript You Should Know](https://blog.bitsrc.io/types-of-native-errors-in-javascript-you-must-know-b8238d40e492)
+- [Why 543 KB keep me up at night](https://www.matuzo.at/blog/why-543kb-keep-me-up-at-night/)
+- [Gatsby Build Speed Improvements With Parallel Image Processing](https://www.netlify.com/blog/2020/02/25/gatsby-build-speed-improvements-with-parallel-image-processing)
 
 ## Releases
 
 - [React 16.13.0](https://reactjs.org/blog/2020/02/26/react-v16.13.0.html)
 - [Ant Design 4.0](https://github.com/ant-design/ant-design/issues/21656)
 - [V8 v8.1](https://v8.dev/blog/v8-release-81)
+- [AdonisJS V5 Preview](https://blog.adonisjs.com/introducing-adonisjs-v5/)
+- [Preact 10.3.3](https://github.com/preactjs/preact/releases/tag/10.3.3)
 
 ## Libs
 

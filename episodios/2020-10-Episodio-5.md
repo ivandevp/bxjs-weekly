@@ -6,6 +6,8 @@
 - [Stop using isLoading booleans](https://kentcdodds.com/blog/stop-using-isloading-booleans)
 - [ES modules in Node today](https://blog.logrocket.com/es-modules-in-node-today/)
 - [Essential Docker for Javascript and Front End Developers](https://nosleepjavascript.com/docker-essentials-for-front-end-developers/)
+- [React TypeScript: Basics and Best Practices](https://blog.bitsrc.io/react-typescript-cheetsheet-2b6fa2cecfe2)
+- [How memory management works in JavaScript](https://medium.com/javascript-in-plain-english/how-memory-management-works-in-javascript-43e1ef22c3bb)
 
 ## Artículos y noticias
 
@@ -16,14 +18,19 @@
 - [CLUI: Building a Graphical Command Line](https://blog.repl.it/clui)
 - [ES Module Attributes](https://github.com/tc39/proposal-module-attributes)
 - [Node 13.10 ships with dual modules ability](https://twitter.com/WebReflection/status/1235321607389958145)
+- [`-webkit-line-clamp` is supported in Chromium, Firefox and Safari!](https://twitter.com/addyosmani/status/1235867720924577792?s=20)
+- [Roadmap for TypeScript support in Svelte](https://twitter.com/orta/status/1235962915129303045?s=20)
+- [Styling `console.log` with `%c`](https://twitter.com/mgechev/status/1235468883357663232?s=20)
 
 ## Tutoriales
 
 - [How to create randomly generated backgrounds with the CSS Paint AP](https://blog.logrocket.com/how-to-create-randomly-generated-backgrounds-with-the-css-paint-api/)
+- [How to create a ‘What’s New’ Popover in React and Material UI](https://medium.com/javascript-in-plain-english/how-to-use-a-whats-new-popover-in-react-and-material-ui-f936e6c8f32e)
 
 ## Releases
 
 - [Node v13.10.0](https://nodejs.org/en/blog/release/v13.10.0/)
+- [TypeScript website v2](https://twitter.com/orta/status/1236411190349312000?s=20)
 
 ## Libs
 
@@ -36,3 +43,4 @@
 
 - [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
 - [meta-typing](https://github.com/ronami/meta-typing)
+- [css.gg](https://css.gg/)
