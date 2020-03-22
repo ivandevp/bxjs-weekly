@@ -14,7 +14,6 @@
 - [Why we chose Typescript for the Hasura Console](https://hasura.io/blog/why-we-chose-typescript-for-hasura-console/)
 - [GitHub Mobile is officially leaving beta](https://twitter.com/github/status/1239968032325156864)
 - [Electron is temporarily pausing major releases, in conjunction with Chromium’s announcement](https://twitter.com/electronjs/status/1240768283336298496)
-- [Gatsby]
 
 ## Tutoriales
 
