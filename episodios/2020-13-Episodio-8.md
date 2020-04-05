@@ -7,6 +7,7 @@
 - [How to Make Your Static Site Dynamic](https://www.freecodecamp.org/news/how-to-make-static-site-dynamic/)
 - [Introduction to React Motion](https://blog.logrocket.com/introduction-to-react-motion/)
 - [How to Debug a Node.js Application: Tips, Tricks and Tools](https://www.sitepoint.com/debug-node-app-tips-tricks-tools/)
+- [A Practical Guide to Memory Leaks in Node.js](https://www.arbazsiddiqui.me/a-practical-guide-to-memory-leaks-in-nodejs/)
 
 ## Artículos y noticias
 
@@ -15,13 +16,16 @@
 - [Apple’s attack on service workers](https://adactio.com/journal/16619)
 - [Using Netlify Functions with Gatsby Cloud](https://www.gatsbyjs.org/blog/2020-03-11-netlify-functions-and-gatsby-cloud/)
 - [Embracing modern image formats](https://joshwcomeau.com/performance/embracing-modern-image-formats/)
+- [How an anti ad-blocker works: Reverse-engineering BlockAdBlock](https://xy2.dev/article/re-bab/)
+- [Chrome Phasing out Support for User Agent](https://www.infoq.com/news/2020/03/chrome-phasing-user-agent/)
 
 ## Tutoriales
 
 - [Building a Real-Time Chat App with React and Firebase](https://css-tricks.com/building-a-real-time-chat-app-with-react-and-firebase/)
 - [How to Build a Multiplayer Card Game with Phaser 3, Express, and Socket.IO](https://www.freecodecamp.org/news/how-to-build-a-multiplayer-card-game-with-phaser-3-express-and-socket-io/)
-- [Chrome Phasing out Support for User Agent](https://www.infoq.com/news/2020/03/chrome-phasing-user-agent/)
 - [Integrating TypeScript with GraphQL](https://blog.logrocket.com/integrating-typescript-graphql/)
+- [React Router and Nginx over HTTP/2](https://marcofranssen.nl/react-router-and-nginx-over-http2/)
+- [Building a Code Editor with CodeMirror](http://thecodebarbarian.com/building-a-code-editor-with-codemirror.html)
 
 ## Releases
 
@@ -47,3 +51,5 @@
 ## Curiosidades
 
 - [CS 253 Web Security](https://twitter.com/addyosmani/status/1244172441146068992?s=20)
+- [Internet Archive offers 1.4 million copyrighted books for free online](https://arstechnica.com/tech-policy/2020/03/internet-archive-offers-thousands-of-copyrighted-books-for-free-online/)
+- [Contribute to open source healthcare projects for COVID-19](https://opensource.com/article/20/3/volunteer-covid19)
