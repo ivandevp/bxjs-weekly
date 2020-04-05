@@ -41,7 +41,8 @@
 
 ## Streamming
 
-
+- [Node.js En Vivo - BONUS: oclif + lerna](https://www.twitch.tv/videos/583343754)
+- [Creando un API con Hapi.js para mostrar datos del COVID-19](https://www.twitch.tv/videos/583480808)
 
 ## Curiosidades
 
