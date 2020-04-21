@@ -14,13 +14,13 @@ const Header: React.FC<IHeaderProps> = ({ siteTitle, siteDescription }) => (
   <header
     css={css`
       background-color: #323330;
-      padding: 40px 0;
     `}
   >
     <div
       css={css`
         margin: 0 auto;
         max-width: 960px;
+        padding: 40px 1rem;
       `}
     >
       <div

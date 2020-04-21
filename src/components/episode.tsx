@@ -12,17 +12,31 @@ const EpisodeCmp: React.FC<IEpisodeProps> = ({ episode }) => (
     key={episode.id}
     css={css`
       display: flex;
-      align-items: flex-start;
+      /* align-items: flex-start; */
+      align-items: center;
       background-color: #ffffff;
       background: linear-gradient(#f8f8f8, #fff);
       box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
       margin: 1rem auto;
       border-radius: 10px;
       position: relative;
+      
+      @media (max-width: 375px) {
+        flex-direction: column;
+      }
+      
+      & img {
+        padding: 0.5rem;
+      }
 
       &:nth-child(2n) {
         & > div:first-child {
           order: 2;
+          @media (max-width: 43rem) {
+            flex-direction: column;
+            max-height: 21rem;
+          }
+          
         }
 
         & > div:last-child {

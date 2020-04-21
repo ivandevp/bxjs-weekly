@@ -31,6 +31,7 @@ const Layout: React.FC<ILayoutProps> = ({ children }) => {
         css={css`
           margin: 0 auto;
           max-width: 960px;
+          padding: 0 1rem;
         `}
       >
         <main>{children}</main>
