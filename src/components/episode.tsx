@@ -61,7 +61,7 @@ const EpisodeCmp: React.FC<IEpisodeProps> = ({ episode }) => (
       >
         {episode.frontmatter.title}
       </h3>
-      <p
+      <div
         dangerouslySetInnerHTML={{
           __html: episode.frontmatter.description,
         }}
