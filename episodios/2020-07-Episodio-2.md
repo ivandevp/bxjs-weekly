@@ -1,3 +1,17 @@
+---
+title: "Episodio 2 - Semana 7, 2020"
+description: "
+Esta semana el lazy loading de imágenes se aceptó como parte del estándar de HTML5, la librería request de Node.js fue oficialmente deprecada, Github CLI sale en versión beta y ahora puedes crear PRs desde la terminal, Ionic lanzó su versión 5. Esto y mucho más podrás encontrarlo en http://bit.ly/unp-ep-2."
+date: "2020-02-17"
+path: "/episodio/2"
+image: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1581927178502-ba8c2aaead909.jpg"
+audio: "
+<iframe src='https://anchor.fm/unexpected-news/embed/episodes/Episodio-2---2020-Semana-7-easm7p' height='102px' width='400px' frameborder='0' scrolling='no'></iframe>
+"
+---
+
+# Episodio 2 - Semana 7, 2020
+
 ## Guías de inicio
 
 - [Aborting a fetch request](https://meetguns.com/blog/aborting-a-fetch-request/)

@@ -1,3 +1,14 @@
+---
+title: "Episodio 7 - Semana 12, 2020"
+description: "
+Esta semana entérate de la unión de NPM a Github, aprende cómo hacer una API Rest con Deno y Postgres, prueba la aplicación móvil de Github, conoce los releases de Babel, React Scripts y Prettier,  sigue el stream de Node.js En Vivo con Julián Duque. Esto y mucho más podrás encontrarlo en https://bit.ly/unp-ep-7"
+date: "2020-03-22"
+path: "/episodio/7"
+image: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1584909611212-4301a13bdf3c3.jpg"
+audio: "
+<iframe src='https://anchor.fm/unexpected-news/embed/episodes/Episodio-7---2020-Semana-12-ebq1b2' height='102px' width='400px' frameborder='0' scrolling='no'></iframe>"
+---
+
 # Episodio 7 - Semana 12, 2020
 
 ## Guías de inicio

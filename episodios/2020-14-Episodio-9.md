@@ -1,3 +1,14 @@
+---
+title: "Episodio 9 - Semana 14, 2020"
+description: "
+Esta semana entérate de los features que están cambiando de etapa en el estándar de ECMAScript, conoce los planes de lanzamiento de la versión de Node 14 y Deno 1.0, indaga en cómo funciona el compilador de Svelte, sigue al talento de habla hispana que está transmitiendo cosas muy cheveres en vivo a través de #EStreamerCoders. Esto y mucho más podrás encontrarlo en https://bit.ly/unp-ep-9."
+date: "2020-04-05"
+path: "/episodio/9"
+image: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1586097140368-ff518046c2e3a.jpg"
+audio: "
+<iframe src='https://anchor.fm/unexpected-news/embed/episodes/Episodio-9---2020-Semana-14-ecdks4' height='102px' width='400px' frameborder='0' scrolling='no'></iframe>"
+---
+
 # Episodio 9 - Semana 14, 2020
 
 ## Guías de inicio
