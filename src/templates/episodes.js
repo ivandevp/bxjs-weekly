@@ -4,9 +4,11 @@ import Layout from "../components/layout"
 
 export default ({ data }) => {
   const post = data.markdownRemark
+  console.log(data, 'data')
   return (
     <Layout>
       <div>
+        <div dangerouslySetInnerHTML={{ __html: post.frontmatter.audio}} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
@@ -18,7 +20,8 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        title
+        title,
+        audio
       }
     }
   }
