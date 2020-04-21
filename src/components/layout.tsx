@@ -41,7 +41,15 @@ const Layout: React.FC<ILayoutProps> = ({ children }) => {
             margin: 20px 0;
           `}
         >
-          {new Date().getFullYear()} © Unexpected News Podcast, Creado con
+          {new Date().getFullYear()} © Unexpected News Podcast. Creado por{" "}
+          <a
+            href="https://twitter.com/ivandevp"
+            target="_blank"
+            rel="noopener norreferrer"
+          >
+            @ivandevp
+          </a>{" "}
+          con
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
           <div>
@@ -49,11 +57,18 @@ const Layout: React.FC<ILayoutProps> = ({ children }) => {
             <a
               href="https://www.flaticon.es/autores/smashicons"
               title="Smashicons"
+              target="_blank"
+              rel="noopener norreferrer"
             >
               Smashicons
             </a>{" "}
             from{" "}
-            <a href="https://www.flaticon.es/" title="Flaticon">
+            <a
+              href="https://www.flaticon.es/"
+              title="Flaticon"
+              target="_blank"
+              rel="noopener norreferrer"
+            >
               www.flaticon.es
             </a>
           </div>

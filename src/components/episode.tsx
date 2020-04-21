@@ -20,31 +20,37 @@ const EpisodeCmp: React.FC<IEpisodeProps> = ({ episode }) => (
       margin: 1rem auto;
       border-radius: 10px;
       position: relative;
-      
-      @media (max-width: 375px) {
+
+      @media (max-width: 576px) {
         flex-direction: column;
       }
-      
+
       & img {
         padding: 0.5rem;
       }
 
-      &:nth-child(2n) {
-        & > div:first-child {
+      &:nth-of-type(2n) {
+        & > div:first-of-type {
           order: 2;
-          @media (max-width: 43rem) {
+          @media (max-width: 576px) {
             flex-direction: column;
             max-height: 21rem;
+            order: 0;
           }
-          
         }
 
-        & > div:last-child {
+        & > div:last-of-type {
           order: 1;
+
+          @media (min-width: 577px) and (max-width: 768px) {
+            & > p {
+              text-align: left;
+            }
+          }
         }
       }
 
-      &:nth-child(2n + 1) {
+      &:nth-of-type(2n + 1) {
         & > div > p:last-child {
           right: 15px;
         }
@@ -79,11 +85,19 @@ const EpisodeCmp: React.FC<IEpisodeProps> = ({ episode }) => (
         dangerouslySetInnerHTML={{
           __html: episode.frontmatter.description,
         }}
+        css={css`
+          margin-bottom: 30px;
+        `}
       />
       <p
         css={css`
           position: absolute;
           bottom: 15px;
+
+          @media (max-width: 768px) {
+            position: static;
+            text-align: right;
+          }
         `}
       >
         <Link to={episode.fields.slug}>Ver más ➡️</Link>
