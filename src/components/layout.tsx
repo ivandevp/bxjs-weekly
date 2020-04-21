@@ -34,8 +34,13 @@ const Layout: React.FC<ILayoutProps> = ({ children }) => {
         `}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        <footer
+          css={css`
+            text-align: center;
+            margin: 20px 0;
+          `}
+        >
+          {new Date().getFullYear()} © Unexpected News Podcast, Creado con
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
           <div>

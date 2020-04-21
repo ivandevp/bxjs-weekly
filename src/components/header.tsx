@@ -43,6 +43,8 @@ const Header: React.FC<IHeaderProps> = ({ siteTitle, siteDescription }) => (
               css={css`
                 color: inherit;
                 text-decoration: none;
+                text-shadow: unset;
+                background-image: unset;
               `}
             >
               {siteTitle}

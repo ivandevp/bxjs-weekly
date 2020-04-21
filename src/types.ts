@@ -5,3 +5,15 @@ export declare interface Platform {
   logo: string
   link: string
 }
+
+export declare interface Episode {
+  id: string
+  frontmatter: {
+    title: string
+    description: string
+    date: string
+    image: string
+    audio: string
+    path: string
+  }
+}

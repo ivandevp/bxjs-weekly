@@ -1,24 +1,26 @@
 import React from "react"
+import { css } from "@emotion/core"
+import { Episode } from "../types"
+import EpisodeCmp from "./episode"
 
-const Episodes = ({ data }) => {
-  return (
-    <ul>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <li key={node.id}>
-          <div>
-            {node.frontmatter.image && (
-              <img src={node.frontmatter.image} alt={node.frontmatter.title} />
-            )}
-            <p>{node.frontmatter.title}</p>
-          </div>
-          <div>
-            <p>{node.frontmatter.description}</p>
-            <p>Fecha de publicación: {node.frontmatter.date}</p>
-          </div>
-        </li>
-      ))}
-    </ul>
-  )
+interface IEpisodesProps {
+  episodes: {
+    node: Episode
+  }[]
 }
+
+const Episodes: React.FC<IEpisodesProps> = ({ episodes }) => (
+  <ul
+    css={css`
+      margin-left: 0;
+    `}
+  >
+    {episodes
+      .filter(({ node }) => node.frontmatter.audio)
+      .map(({ node }) => (
+        <EpisodeCmp key={node.id} episode={node} />
+      ))}
+  </ul>
+)
 
 export default Episodes

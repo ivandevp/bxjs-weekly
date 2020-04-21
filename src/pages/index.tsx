@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => (
     <SEO title="Unexpected News Podcast" />
     <GlobalStyles />
 
-    <Episodes data={data} />
+    <Episodes episodes={data.allMarkdownRemark.edges} />
   </Layout>
 )
 
