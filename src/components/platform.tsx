@@ -19,7 +19,13 @@ const PlatformCmp: React.FC<IPlatformProps> = ({ platform }) => (
       border-radius: 10px;
     `}
   >
-    <a href={platform.link} target="_blank">
+    <a
+      href={platform.link}
+      target="_blank"
+      css={css`
+        background-image: unset;
+      `}
+    >
       <img
         src={platform.logo}
         alt={platform.name}

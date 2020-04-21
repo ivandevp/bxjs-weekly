@@ -14,6 +14,7 @@ const Platforms: React.FC<IPlatformsProps> = ({ platforms }) => {
         list-style: none;
         padding-left: 0;
         display: flex;
+        margin-left: unset;
       `}
     >
       {platforms.map((platform) => {
