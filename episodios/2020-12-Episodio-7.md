@@ -1,7 +1,7 @@
 ---
 title: "Episodio 7 - Semana 12, 2020"
 description: "
-Esta semana entérate de la unión de NPM a Github, aprende cómo hacer una API Rest con Deno y Postgres, prueba la aplicación móvil de Github, conoce los releases de Babel, React Scripts y Prettier,  sigue el stream de Node.js En Vivo con Julián Duque. Esto y mucho más podrás encontrarlo en https://bit.ly/unp-ep-7"
+<p>Esta semana entérate de la unión de NPM a Github, aprende cómo hacer una API Rest con Deno y Postgres, prueba la aplicación móvil de Github, conoce los releases de Babel, React Scripts y Prettier, &nbsp;sigue el stream de Node.js En Vivo con <a href='https://twitter.com/julian_duque'>Julián Duque</a>.</p>"
 date: "2020-03-22"
 path: "/episodio/7"
 image: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1584909611212-4301a13bdf3c3.jpg"

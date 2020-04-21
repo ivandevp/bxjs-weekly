@@ -1,7 +1,7 @@
 ---
 title: "Episodio 5 - Semana 10, 2020"
 description: "
-Esta semana aprende sobre cómo se creó el visor 3D de z-index de Edge, retos del Debugger de Firefox, piensa en React como si fuese un sistema operativo y sus distros alrededor, conoce las complejidades de rehydration en SSR apps, implementa la api de CSS Paint y entérate de las novedades de Node v13.10. Esto y mucho más podrás encontrarlo en https://bit.ly/unp-ep-5"
+<p>Esta semana aprende sobre cómo se creó el visor 3D de z-index de Edge, retos del Debugger de Firefox, piensa en React como si fuese un sistema operativo y sus distros alrededor, conoce las complejidades de rehydration en SSR apps, implementa la api de CSS Paint y entérate de las novedades de Node v13.10.</p>"
 date: "2020-03-11"
 path: "/episodio/5"
 image: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1583940378602-275ba65854ead.jpg"

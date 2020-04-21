@@ -1,7 +1,7 @@
 ---
 title: "Episodio 6 - Semana 11, 2020"
 description: "
-Esta semana aprende sobre cómo crear un juego 3D que pese < 2KB, conoce el feature de Module Federation que viene en Webpack 5, analiza cómo crear una Github App con Node.js, además de los releases de la semana como Next.js 9.3,  Rollup v2.0.0, Node v13.11.0; incluso descubre un paper del creador de JS acerca de los primeros 20 años de JS. Esto y mucho más podrás encontrarlo en https://bit.ly/unp-ep-6"
+<p>Esta semana aprende sobre cómo crear un juego 3D que pese &lt; 2KB, conoce el feature de Module Federation que viene en Webpack 5, analiza cómo crear una Github App con Node.js, además de los releases de la semana como Next.js 9.3, &nbsp;Rollup v2.0.0, Node v13.11.0; incluso descubre un paper del creador de JS acerca de los primeros 20 años de JS.</p>"
 date: "2020-03-18"
 path: "/episodio/6"
 image: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1584585171605-2cc399a628453.jpg"

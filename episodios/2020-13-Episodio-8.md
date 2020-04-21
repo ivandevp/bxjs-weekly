@@ -1,7 +1,7 @@
 ---
 title: "Episodio 8 - Semana 13, 2020"
 description: "
-Esta semana entérate del anuncio de Apple sobre WebStorage en Safari y las implicaciones en PWAs, conoce sobre formatos modernos de imágenes para la web, acércate al JAMStack a través de diversos artículos, además de los releases de React Native 0.62 y Node v13.12.0. Esto y mucho más podrás encontrarlo en https://bit.ly/unp-ep-8."
+<p>Esta semana entérate del anuncio de Apple sobre WebStorage en Safari y las implicaciones en PWAs, conoce sobre formatos modernos de imágenes para la web, acércate al JAMStack a través de diversos artículos, además de los releases de React Native 0.62 y Node v13.12.0.</p>"
 date: "2020-04-01"
 path: "/episodio/8"
 image: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1585796047889-a03b7b1ca5c19.jpg"
