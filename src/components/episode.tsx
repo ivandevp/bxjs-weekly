@@ -63,7 +63,11 @@ const EpisodeCmp: React.FC<IEpisodeProps> = ({ episode }) => (
       `}
     >
       {episode.frontmatter.image && (
-        <img src={episode.frontmatter.image} alt={episode.frontmatter.title} />
+        <img
+          data-src={episode.frontmatter.image}
+          alt={episode.frontmatter.title}
+          className="lazyload"
+        />
       )}
     </div>
     <div

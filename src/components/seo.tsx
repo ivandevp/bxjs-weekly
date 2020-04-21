@@ -37,8 +37,9 @@ const SEO: React.FC<ISEOProps> = ({
   const metaDescription = description || site.siteMetadata.description
 
   return (
-    <Helmet>
+    <Helmet htmlAttributes={{ lang: "es" }}>
       <title>{title}</title>
+      <meta name="description" content={metaDescription} />
     </Helmet>
   )
 }

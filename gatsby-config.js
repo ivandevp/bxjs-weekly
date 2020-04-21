@@ -41,6 +41,10 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     {
+      resolve: `gatsby-remark-images`,
+    },
+    `gatsby-remark-lazy-load`,
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,

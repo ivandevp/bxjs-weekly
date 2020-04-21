@@ -22,6 +22,7 @@ const PlatformCmp: React.FC<IPlatformProps> = ({ platform }) => (
     <a
       href={platform.link}
       target="_blank"
+      rel="noopener noreferrer"
       css={css`
         background-image: unset;
       `}
