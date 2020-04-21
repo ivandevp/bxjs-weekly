@@ -16,4 +16,7 @@ export declare interface Episode {
     audio: string
     path: string
   }
+  fields: {
+    slug: string
+  }
 }

@@ -72,7 +72,7 @@ const EpisodeCmp: React.FC<IEpisodeProps> = ({ episode }) => (
           bottom: 15px;
         `}
       >
-        <Link to={episode.frontmatter.path}>Ver más ➡️</Link>
+        <Link to={episode.fields.slug}>Ver más ➡️</Link>
       </p>
     </div>
   </li>
