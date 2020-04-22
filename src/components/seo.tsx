@@ -70,6 +70,7 @@ const SEO: React.FC<ISEOProps> = ({
       htmlAttributes={{ lang }}
     >
       <title>{metaTitle}</title>
+      <meta name="title" content={metaTitle} />
       <meta name="description" content={metaDescription} />
 
       {/* OpenGraph tags */}
