@@ -12,6 +12,7 @@ interface Frontmatter {
   descriptionText: string
   title: string
   image: string
+  date: string
 }
 
 interface Fields {
@@ -76,6 +77,10 @@ const SEO: React.FC<ISEOProps> = ({
       <title>{metaTitle}</title>
       <meta name="title" content={`Unexpected News Podcast: ${metaTitle}`} />
       <meta name="description" content={metaDescription} />
+      <meta name="image" content={image} />
+      <link rel="canonical" href={url} />
+      <meta name="author" content={site.siteMetadata.author} />
+      <meta name="date" content={frontmatter.date} />
 
       {/* OpenGraph tags */}
       <meta property="og:url" content={url} />

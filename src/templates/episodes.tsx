@@ -44,6 +44,7 @@ export const query = graphql`
         title
         descriptionText
         image
+        date
       }
       fields {
         slug
