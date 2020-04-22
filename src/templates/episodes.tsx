@@ -8,7 +8,7 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <SEO title={`Unexpected News Podcast - ${post.frontmatter.title}`} />
+      <SEO frontmatter={post.frontmatter} fields={post.fields} />
       <div>
         <div
           dangerouslySetInnerHTML={{ __html: post.frontmatter.audio }}
@@ -40,8 +40,12 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        title
         audio
+        title
+        description
+      }
+      fields {
+        slug
       }
     }
   }

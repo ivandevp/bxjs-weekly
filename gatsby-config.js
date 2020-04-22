@@ -3,6 +3,7 @@ module.exports = {
     title: `Unexpected News Podcast`,
     description: `Resumen semanal de noticias de JavaScript en español.`,
     author: `Ivan Medina - @ivandevp`,
+    siteUrl: `https://podcast.unexpected.dev`
   },
   plugins: [
     `gatsby-plugin-typescript`,
