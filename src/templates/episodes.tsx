@@ -8,7 +8,7 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <SEO frontmatter={post.frontmatter} fields={post.fields} />
+      <SEO frontmatter={post.frontmatter} fields={post.fields} isBlogPost />
       <div>
         <div
           dangerouslySetInnerHTML={{ __html: post.frontmatter.audio }}
@@ -43,6 +43,7 @@ export const query = graphql`
         audio
         title
         description
+        image
       }
       fields {
         slug

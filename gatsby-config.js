@@ -3,7 +3,8 @@ module.exports = {
     title: `Unexpected News Podcast`,
     description: `Resumen semanal de noticias de JavaScript en español.`,
     author: `Ivan Medina - @ivandevp`,
-    siteUrl: `https://podcast.unexpected.dev`
+    siteUrl: `https://podcast.unexpected.dev`,
+    image: `https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1581407940323-0fa7a9a249951.jpg`,
   },
   plugins: [
     `gatsby-plugin-typescript`,

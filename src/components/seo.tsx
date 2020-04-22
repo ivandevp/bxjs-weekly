@@ -11,6 +11,7 @@ interface Frontmatter {
   audio: string
   description: string
   title: string
+  image: string
 }
 
 interface Fields {
@@ -24,6 +25,7 @@ interface ISEOProps {
   meta?: Meta[]
   frontmatter?: Frontmatter
   fields?: Fields
+  isBlogPost?: boolean
 }
 
 const SEO: React.FC<ISEOProps> = ({
@@ -33,6 +35,7 @@ const SEO: React.FC<ISEOProps> = ({
   title,
   fields,
   frontmatter,
+  isBlogPost,
 }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -43,6 +46,7 @@ const SEO: React.FC<ISEOProps> = ({
             description
             author
             siteUrl
+            image
           }
         }
       }
@@ -58,6 +62,7 @@ const SEO: React.FC<ISEOProps> = ({
     fields && fields.slug
       ? `${site.siteMetadata.siteUrl}/${fields.slug}`
       : site.siteMetadata.siteUrl
+  const image = (frontmatter && frontmatter.image) || site.siteMetadata.image
 
   return (
     <Helmet
@@ -69,14 +74,14 @@ const SEO: React.FC<ISEOProps> = ({
 
       {/* OpenGraph tags */}
       <meta property="og:url" content={url} />
-      {/* {isBlogPost ? <meta property="og:type" content="article" /> : null} */}
+      {isBlogPost ? <meta property="og:type" content="article" /> : null}
       <meta
         property="og:title"
         content={`${site.siteMetadata.title} - ${metaTitle}`}
       />
       <meta property="og:description" content={metaDescription} />
-      {/* <meta property="og:image" content={image} />
-      <meta property="fb:app_id" content={seo.social.fbAppID} /> */}
+      <meta property="og:image" content={image} />
+      {/* <meta property="fb:app_id" content={seo.social.fbAppID} /> */}
     </Helmet>
   )
 }
