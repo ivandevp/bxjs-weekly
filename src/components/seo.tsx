@@ -75,13 +75,9 @@ const SEO: React.FC<ISEOProps> = ({
       {/* OpenGraph tags */}
       <meta property="og:url" content={url} />
       {isBlogPost ? <meta property="og:type" content="article" /> : null}
-      <meta
-        property="og:title"
-        content={`${site.siteMetadata.title} - ${metaTitle}`}
-      />
+      <meta property="og:title" content={`UNP: ${metaTitle}`} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={image} />
-      {/* <meta property="fb:app_id" content={seo.social.fbAppID} /> */}
     </Helmet>
   )
 }
