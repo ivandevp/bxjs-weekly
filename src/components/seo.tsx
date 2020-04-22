@@ -85,7 +85,7 @@ const SEO: React.FC<ISEOProps> = ({
       />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={image} />
-      <meta property="fb:app_id" content={site.siteMetadata.social.fbAppId} />
+      <meta property="fb:app:id" content={site.siteMetadata.social.fbAppId} />
     </Helmet>
   )
 }
