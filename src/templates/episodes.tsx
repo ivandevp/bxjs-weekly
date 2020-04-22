@@ -42,7 +42,7 @@ export const query = graphql`
       frontmatter {
         audio
         title
-        description
+        descriptionText
         image
       }
       fields {

@@ -9,7 +9,7 @@ interface Meta {
 
 interface Frontmatter {
   audio: string
-  description: string
+  descriptionText: string
   title: string
   image: string
 }
@@ -59,7 +59,7 @@ const SEO: React.FC<ISEOProps> = ({
   const metaTitle = title || (frontmatter && frontmatter.title)
   const metaDescription =
     description ||
-    (frontmatter && frontmatter.description) ||
+    (frontmatter && frontmatter.descriptionText) ||
     site.siteMetadata.description
   const url =
     fields && fields.slug
