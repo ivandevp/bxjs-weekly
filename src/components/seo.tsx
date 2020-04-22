@@ -70,13 +70,16 @@ const SEO: React.FC<ISEOProps> = ({
       htmlAttributes={{ lang }}
     >
       <title>{metaTitle}</title>
-      <meta name="title" content={metaTitle} />
+      <meta name="title" content={`Unexpected News Podcast: ${metaTitle}`} />
       <meta name="description" content={metaDescription} />
 
       {/* OpenGraph tags */}
       <meta property="og:url" content={url} />
-      {isBlogPost ? <meta property="og:type" content="article" /> : null}
-      <meta property="og:title" content={`UNP: ${metaTitle}`} />
+      <meta property="og:type" content={isBlogPost ? "article" : "website"} />
+      <meta
+        property="og:title"
+        content={`Unexpected News Podcast: ${metaTitle}`}
+      />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={image} />
     </Helmet>

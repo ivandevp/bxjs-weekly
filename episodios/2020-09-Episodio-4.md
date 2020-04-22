@@ -1,8 +1,8 @@
 ---
 title: "Episodio 4 - Semana 9, 2020"
 description: ""
+descriptionText: ""
 date: "2020-03-04"
-path: "/episodio/4"
 image: ""
 audio: ""
 ---

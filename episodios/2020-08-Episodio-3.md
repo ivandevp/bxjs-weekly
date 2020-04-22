@@ -2,8 +2,8 @@
 title: "Episodio 3 - Semana 8, 2020"
 description: "
 <p>Esta semana aprende cómo detectar memory leaks en tus aplicaciones, conoce las diferencias entre links y botones más allá de lo visual, usa top-level await con TypeScript v3.8, crea proyectos con React y Redux usando el template oficial.</p>"
+descriptionText: "Esta semana aprende cómo detectar memory leaks en tus aplicaciones, conoce las diferencias entre links y botones más allá de lo visual, usa top-level await con TypeScript v3.8, crea proyectos con React y Redux usando el template oficial."
 date: "2020-02-25"
-path: "/episodio/3"
 image: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1582661970427-858e64c267ed9.jpg"
 audio: "
 <iframe src='https://anchor.fm/unexpected-news/embed/episodes/Episodio-3---2020-Semana-8-eb2l50' height='102px' width='400px' frameborder='0' scrolling='no'></iframe>

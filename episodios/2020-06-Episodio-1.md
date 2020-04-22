@@ -2,8 +2,8 @@
 title: "Episodio 1 - Semana 6, 2020"
 description: "
 <p>Primer episodio de Unexpected News Podcast! En este episodio hablamos sobre la dinámica de cada show además de ver las noticias que acontecieron en la primera semana de Febrero del 2020.</p><p>Cualquier feedback puedes escribirlo a <a href='https://twitter.com/ivandevp'>@ivandevp</a>.</p>"
+descriptionText: "Primer episodio de Unexpected News Podcast! En este episodio hablamos sobre la dinámica de cada show además de ver las noticias que acontecieron en la primera semana de Febrero del 2020.Cualquier feedback puedes escribirlo a @ivandevp."
 date: "2020-02-10"
-path: "/episodio/1"
 image: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1581407940323-0fa7a9a249951.jpg"
 audio: "
 <iframe src='https://anchor.fm/unexpected-news/embed/episodes/Episodio-1---2020-Semana-6-eap12l' height='102px' width='400px' frameborder='0' scrolling='no'></iframe>
