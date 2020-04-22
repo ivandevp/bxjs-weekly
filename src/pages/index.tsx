@@ -25,7 +25,6 @@ export const query = graphql`
             title
             description
             date(formatString: "MMMM DD, YYYY")
-            path
             image
             audio
           }
