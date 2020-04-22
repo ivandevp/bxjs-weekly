@@ -7,6 +7,7 @@ module.exports = {
     image: `https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/3216485/3216485-1581407940323-0fa7a9a249951.jpg`,
     social: {
       fbAppId: "112538417095047",
+      twitter: "@unexpectednewsp",
     },
   },
   plugins: [
