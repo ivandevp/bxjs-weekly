@@ -25,11 +25,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `unexpected-news-podcast`,
-        short_name: `unp`,
+        name: `Unexpected News Podcast`,
+        short_name: `UNP`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#323330`,
+        theme_color: `#323330`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
