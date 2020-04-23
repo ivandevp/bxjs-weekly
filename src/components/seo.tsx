@@ -91,7 +91,7 @@ const SEO: React.FC<ISEOProps> = ({
       {/* OpenGraph tags */}
       <meta property="og:url" content={url} />
       <meta property="og:type" content={isBlogPost ? "article" : "website"} />
-      <meta property="og:title" content={} />
+      <meta property="og:title" content={metaShareTitle} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={image} />
       <meta property="fb:app_id" content={site.siteMetadata.social.fbAppId} />
