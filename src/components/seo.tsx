@@ -69,26 +69,29 @@ const SEO: React.FC<ISEOProps> = ({
       : site.siteMetadata.siteUrl
   const image = (frontmatter && frontmatter.image) || site.siteMetadata.image
 
+  const metaShareTitle = isBlogPost
+    ? `Unexpected News Podcast: ${metaTitle}`
+    : metaTitle
+
   return (
     <Helmet
       titleTemplate="Unexpected News Podcast - %s"
       htmlAttributes={{ lang }}
     >
-      <title>{metaTitle}</title>
-      <meta name="title" content={`Unexpected News Podcast: ${metaTitle}`} />
+      <title>{metaShareTitle}</title>
+      <meta name="title" content={metaShareTitle} />
       <meta name="description" content={metaDescription} />
       <meta name="image" content={image} />
       <link rel="canonical" href={url} />
       <meta name="author" content={site.siteMetadata.author} />
-      <meta name="date" content={frontmatter.date} />
+      {frontmatter && frontmatter.date ? (
+        <meta name="date" content={frontmatter.date} />
+      ) : null}
 
       {/* OpenGraph tags */}
       <meta property="og:url" content={url} />
       <meta property="og:type" content={isBlogPost ? "article" : "website"} />
-      <meta
-        property="og:title"
-        content={`Unexpected News Podcast: ${metaTitle}`}
-      />
+      <meta property="og:title" content={} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={image} />
       <meta property="fb:app_id" content={site.siteMetadata.social.fbAppId} />
@@ -96,10 +99,7 @@ const SEO: React.FC<ISEOProps> = ({
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={site.siteMetadata.social.twitter} />
-      <meta
-        name="twitter:title"
-        content={`Unexpected News Podcast: ${metaTitle}`}
-      />
+      <meta name="twitter:title" content={metaShareTitle} />
       <meta name="twitter:description" content={metaDescription} />
       <meta name="twitter:image" content={image} />
     </Helmet>
