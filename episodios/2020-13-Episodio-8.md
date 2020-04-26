@@ -55,7 +55,7 @@ audio: "
 - [npkill](https://github.com/voidcosmos/npkill)
 - [ora](https://github.com/sindresorhus/ora)
 
-## Streamming
+## Streams
 
 - [Node.js En Vivo - Bases de Datos - Sequelize](https://www.twitch.tv/videos/577664449)
 

@@ -47,7 +47,7 @@ audio: "
 - [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation)
 - [gqless](https://gqless.netlify.com/)
 
-## Streamming
+## Streams
 
 - [Node.js En Vivo - Base de Datos PostgreSQL](https://www.twitch.tv/videos/572155558)
 

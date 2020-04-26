@@ -50,7 +50,7 @@ audio: "
 - [use-sound](https://github.com/joshwcomeau/use-sound)
 - [notyf](https://carlosroso.com/notyf/)
 
-## Streamming
+## Streams
 
 - [Node.js En Vivo - BONUS: oclif + lerna](https://www.twitch.tv/videos/583343754)
 - [Creando un API con Hapi.js para mostrar datos del COVID-19](https://www.twitch.tv/videos/583480808)
